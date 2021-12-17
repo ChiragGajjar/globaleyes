@@ -1,0 +1,56 @@
+name: globaleyes
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  provider: ^5.0.0
+  shared_preferences: ^2.0.8
+  http: ^0.13.4
+  http_interceptor: ^1.0.2
+  data_connection_checker: ^0.3.4
+  flutter_screenutil: ^5.0.0+2
+  qrscan: ^0.3.2
+  permission_handler: ^8.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Black.ttf
+        - asset: assets/fonts/Gilroy-Bold.ttf
+        - asset: assets/fonts/Gilroy-Extrabold.ttf
+        - asset: assets/fonts/Gilroy-Heavy.ttf
+        - asset: assets/fonts/Gilroy-Light.ttf
+        - asset: assets/fonts/Gilroy-Medium.ttf
+        - asset: assets/fonts/Gilroy-Regular.ttf
+        - asset: assets/fonts/Gilroy-Semibold.ttf
+        - asset: assets/fonts/Gilroy-Thin.ttf
+        - asset: assets/fonts/Gilroy-UltraLight.ttf
